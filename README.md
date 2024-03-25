@@ -19,6 +19,13 @@ A `requirements.txt` file is included in the repository. Install the required li
 
     pip install -r requirements.txt
 
+
+## Notes
+
+This repository directly hosts the PDF files as they are expected to remain unchanged over time.
+Consequently, incorporating [Git Large File Storage (LFS)](https://git-lfs.github.com/) would introduce an unnecessary technical complexity and requirement.
+By avoiding Git LFS, we aim to keep the repository accessible and simple for all users, ensuring straightforward cloning and fetching processes without the need for additional Git configurations.
+
 ## Legal and Ethical Considerations
 
 Please use this script responsibly and ethically. The script is intended for personal use and educational purposes only. Ensure you comply with TUGboat's terms of service and copyright policies before downloading content. This script is not endorsed by or affiliated with TUGboat or the TeX Users Group.
