@@ -29,7 +29,7 @@ jobs:
         run: python tugboat_downloader.py
 
       - name: Commit and push if there are changes
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v6
   keepalive:
     name: Keepalive
     runs-on: ubuntu-latest
